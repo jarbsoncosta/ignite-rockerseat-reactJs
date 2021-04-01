@@ -1,5 +1,4 @@
-
-
+import '../styles/repositories.scss'
 export default function RepositoryItem(props) {
     return (
         <li>
@@ -7,7 +6,7 @@ export default function RepositoryItem(props) {
             <p>{props.repository.description}</p>
             <a href={props.repository.link}>
                 Acessar repositório
-                    </a>
+</a>
         </li>
     )
 }
