@@ -1,15 +1,15 @@
 {
-  "compilerOptions": {
+  "compilerOptions": { // inclui tipagens html
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
-    "jsx": "react-jsx",
+    "allowJs": true, //será possivel utilizar tanto javascript quanto typescript
+    "jsx": "react-jsx", //entender html dentro do javascript com jsx
     "noEmit": true,
-    "strict": true,
-    "resolveJsonModule": true,
+    "strict": true, // modulo para lidar com erros 
+    "resolveJsonModule": true, //suportar arquivos json
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
@@ -17,7 +17,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": [
+  "include": [ //onde todo codigo da aolicação vai estar
     "src"
   ]
 }
