@@ -17,7 +17,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": [ //onde todo codigo da aolicação vai estar
+  "include": [ //onde todo codigo da aplicação vai estar
     "src"
   ]
 }
